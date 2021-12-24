@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  web:
+    image: wahyuip/penjualan-buku
+    container_name: penjualan-buku
+    ports:
+      - 80:80
