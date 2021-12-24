@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   web:
-    image: wahyuip/penjualan-buku
-    container_name: penjualan-buku
+    image: wahyuip/bookstore
+    container_name: bookstore
     ports:
       - 80:80
