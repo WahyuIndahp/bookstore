@@ -1,8 +1,8 @@
 <?php
-	$host = "localhost";
-	$user = "root";
-	$pass = "";
-	$db = "penjualan_php";
+	$host = "10.0.0.6";
+	$user = "Admin";
+	$pass = "151617_Wahyu";
+	$db = "penjualan-buku";
 
 	$koneksi = mysqli_connect($host, $user, $pass, $db);
 
